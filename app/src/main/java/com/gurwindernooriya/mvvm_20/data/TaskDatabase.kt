@@ -7,6 +7,7 @@ import androidx.room.RoomDatabase
 version = 1)
 abstract class TaskDatabase :RoomDatabase(){
 
+    abstract fun taskDao():TaskDao
 
 
 }
